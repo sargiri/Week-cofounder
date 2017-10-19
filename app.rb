@@ -68,6 +68,7 @@ if body == "Looking for cofounder"
           if possible_partners.empty?
             messages = "I couldn't find a match for you. Sorry"
           else
+            
             random_match = possible_partners.sample
             message = "alright you should start a business with" + random_match.name
           end
