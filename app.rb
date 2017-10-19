@@ -2,7 +2,7 @@ require 'sinatra'
 require 'sinatra/reloader' if development?
 require "sinatra"
 require 'sinatra/activerecord'
-
+require 'sqlite3', '~> 1.3', '>= 1.3.13'
 set :database, "sqlite3:db/coufounderMatch.db"
 
 #require_relative './models/task'
