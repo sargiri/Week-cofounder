@@ -11,6 +11,7 @@ set :database, "sqlite3:db/coufounderMatch.db"
 
 enable :sessions
 
+
 configure :development do
   require 'dotenv'
 
