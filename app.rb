@@ -7,8 +7,6 @@ set :database, "sqlite3:db/coufounderMatch.db"
 
 #require_relative './models/task'
 
-
-
 enable :sessions
 
 
